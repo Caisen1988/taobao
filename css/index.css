@@ -18,45 +18,192 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-#headMessage li{
+#headMessage {
+    width: 1190px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+#headMessage li {
     float: left;
     line-height: 35px;
     padding: 0 6px;
     font-size: 0;
 }
 
-#headMessage a{
+#headMessage a {
     color: #6c6c6c;
     font-size: 12px;
 }
 
-#headMessage a:hover{
+#headMessage a:hover {
     color: #f40;
 }
 
-#headMessage a.login{
+#headMessage a.login {
     color: #f22e00;
 }
 
-#headMessage span{
+#headMessage span {
     font-size: 12px;
 }
 
-#headMessage li strong{
+#headMessage li strong {
     font-size: 12px;
     color: #f22e00;
 }
 
-#headMessage span.arrow{
+#headMessage span.arrow {
     margin-left: 7px;
 }
 
-#headMessage span.store{
+#headMessage span.store {
     color: #9c9c9c;
 }
 
-#headMessage li.line{
+#headMessage li.line {
     font-size: 12px;
     color: #ddd;
     padding: 0 5px;
+}
+
+#headSearch {
+    background-color: #fff;
+    padding: 24px 0 10px 0;
+}
+
+#headSearch h1 a {
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../images/logo.png) center no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+#headSearch .code {
+    width: 72px;
+    height: 86px;
+    border: 1px solid #eee;
+    position: relative;
+    margin-right: 110px;
+    text-align: center;
+}
+
+#headSearch .code img {
+    width: 62px;
+    height: 62px;
+}
+
+#headSearch .close {
+    position: absolute;
+    left: -16px;
+    top: -1px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    color: #ddd;
+    cursor: pointer;
+
+}
+
+#headSearch .search {
+    width: 630px;
+    margin: 0 auto;
+}
+
+#headSearch .searchTab {
+    height: 22px;
+    padding-left: 17px;
+}
+
+#headSearch .searchTab li {
+    float: left;
+    width: 36px;
+    line-height: 22px;
+    margin-right: 4px;
+    text-align: center;
+    color: #f40;
+    cursor: pointer;
+}
+
+#headSearch .searchTab li.active {
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    border-radius: 6px 6px 0 0;
+}
+
+#headSearch .searchContent {
+    height: 40px;
+}
+
+#headSearch .searchBox {
+    width: 554px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ff5000;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#headSearch .searchBox input {
+    width: 490px;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+
+#headSearch .placeholder{
+    position: absolute;
+    top:6px;
+    left:14px;
+
+}
+
+#headSearch .placeholder span{
+    color: #9c9c9c;
+    vertical-align: 1px;
+}
+
+#headSearch .imageSearch{
+    font-size: 28px;
+    color: #9c9c9c;
+    position: absolute;
+    right: 20px;
+    top: -2px;
+    cursor: pointer;
+}
+
+#headSearch .searchContent button{
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height:40px;
+    color:#fff;
+    border:none;
+    -webkit-background-size: inherit;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    border-radius: 0 20px 20px 0
+}
+
+#headSearch .hotKey{
+    height: 25px;
+    line-height: 25px;
+}
+
+#headSearch .hotKey a:hover{
+    color:#f50;
 }
