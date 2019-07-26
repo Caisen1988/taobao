@@ -416,7 +416,7 @@
     left: 0;
 }
 
-.firstLeft .img2Box .img{
+.firstLeft .img2Box .img {
     width: 520px;
     height: 200px;
     background-color: #fff;
@@ -424,19 +424,84 @@
     display: table-cell;
     vertical-align: middle;
 }
-.firstLeft .img2Box .img img{
+
+.firstLeft .img2Box .img img {
     margin: 0 10px;
 }
 
-.firstLeft .img2Box .ad .title{
+.firstLeft .img2Box .ad .title {
     height: 20px;
     line-height: 20px;
 }
 
-.news {
+.firstLeft .news {
     width: 890px;
     height: 100px;
     background: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 13px 13px 13px 20px;
+}
+
+.firstLeft .news .hd {
+    margin-top: 15px;
+}
+
+.firstLeft .news .hd h3 {
+    width: 129px;
+    height: 26px;
+    background: url(../images/life.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.firstLeft .news .hd p {
+    color: #999;
+    line-height: 24px;
+}
+
+.firstLeft .news .newList {
+    width: 680px;
+    position: relative;
+}
+
+.firstLeft .news .newList .img {
+    margin-right: 15px;
+}
+
+.firstLeft .news .newList .img img {
+    width: 130px;
+    height: 73px;
+}
+
+.firstLeft .news .newList h4 {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.firstLeft .news .newList h4 a {
+    color: #333;
+}
+
+.firstLeft .news .newList h4 a:hover, .firstLeft .news .newList .more:hover {
+    color: #ff5000;
+}
+
+.firstLeft .news .newList p {
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.firstLeft .news .newList p a {
+    color: #999;
+}
+
+.firstLeft .news .newList .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
 }
 
 .firstRight {
