@@ -506,6 +506,371 @@
 
 .firstRight {
     width: 290px;
-    height: 621px;
-    background: #9c9c9c;
+    margin-top: 10px;
+}
+.firstRight .user{
+    height: 140px;
+    padding-top: 5px;
+    background-image: url(../images/user.png);
+    background-size: 290px 145px;
+}
+.firstRight .user .avatar{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.firstRight .user .avatar img{
+    width: 50px;
+    height: 50px;
+}
+
+.firstRight .user .username{
+    text-align: center;
+    line-height: 16px;
+}
+
+.firstRight .user .members{
+    text-align: center;
+    font-size: 0;
+}
+
+.firstRight .user .members a{
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 9px;
+    padding: 0 10px 0 20px;
+    margin: 0 2px;
+}
+.firstRight .user .members a.gold{
+    background: #ffe4dc url(../images/icon-22.png) 0 -572px no-repeat;
+}
+.firstRight .user .members a.club{
+    background: #ffe4dc url(../images/icon-22.png) 0 -528px no-repeat;
+}
+.firstRight .user .btn{
+    text-align: center;
+}
+.firstRight .user .btn button{
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    margin: 12px 2px 0 2px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+}
+.firstRight .user .btn button.login{
+    width: 92px;
+}
+
+.firstRight .tipOff{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    color: #f40;
+    background: #ffe4dc;
+    text-align: center;
+}
+.firstRight .tipOff i{
+    font-size: 12px;
+    vertical-align: 1px;
+    position: relative;
+    left: 30px;
+}
+.firstRight  .notice{
+    height: 108px;
+    background-color: #fff;
+}
+
+.firstRight .notice .title{
+    text-align: center;
+    padding-top: 10px;
+}
+.firstRight .notice .title li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 4px;
+    margin: 0 10px;
+}
+
+.firstRight .notice .title li.active{
+    font-weight: bold;
+    border-bottom: 2px solid #f40;
+}
+.firstRight .notice .title li a:hover{
+    color: #f40;
+}
+.firstRight .notice .content{
+    margin: 0 12px;
+    padding-top: 10px;
+}
+.firstRight .notice .content li{
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    width: 130px;
+    overflow: hidden;
+}
+.firstRight .notice .content li a:hover, .firstRight .notice .content li.item1 a{
+    color:#ff5000;
+}
+.firstRight .notice .content li.item1{
+    width: 100%;
+}
+
+.firstRight .icon{
+    width: 100%;
+    height: 231px;
+    background-color: #fff;
+    table-layout: fixed; /*定义列宽的算法，均分*/
+}
+.firstRight .icon td{
+    border: 1px solid #f4f4f4;
+    text-align: center;
+}
+.firstRight .icon td span{
+    display:block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    background: url(../images/icon-22.png) no-repeat;
+}
+
+.firstRight .icon td i{
+    line-height: 34px;
+    color: #333;
+}
+
+.firstRight .icon .item1 span{
+    background-position: 0 0;
+}
+.firstRight .icon .item2 span{
+    background-position: 0 -87px;
+}
+.firstRight .icon .item3 span{
+    background-position: 0 -44px;
+}
+.firstRight .icon .item4 span{
+    background-position: 0 -132px;
+}
+.firstRight .icon .item5 span{
+    background-position: 0 -176px;
+}
+.firstRight .icon .item6 span{
+    background-position: 0 -220px;
+}
+.firstRight .icon .item7 span{
+    background-position: 0 -264px;
+}
+.firstRight .icon .item8 span{
+    background-position: 0 -308px;
+}
+.firstRight .icon .item9 span{
+    background-position: 0 -352px;
+}
+.firstRight .icon .item10 span{
+    background-position: 0 -396px;
+}
+.firstRight .icon .item11 span{
+    background-position: 0 -440px;
+}
+.firstRight .icon .item12 span{
+    background-position: 0 -484px;
+}
+.firstRight .app{
+    height: 111px;
+    background: #fff;
+}
+.firstRight .app .title{
+    height: 30px;
+    line-height: 30px;
+}
+.firstRight .app h3{
+    font-size: 14px;
+    padding-left: 14px;
+}
+.firstRight .app a{
+    margin-right: 10px;
+}
+.firstRight .app a:hover{
+    color:#f40;
+}
+.firstRight .app .appIcon{
+    text-align: center;
+    font-size: 0;
+}
+.firstRight .app .appIcon li{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 10px 8px 10px;
+}
+.firstRight .app .appIcon li img{
+    width: 32px;
+    height: 32px;
+}
+.goods{
+    width: 590px;
+    height: 658px;
+    background: #fff;
+    overflow: hidden;
+}
+.goods .head{
+    height: 24px;
+    line-height: 24px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.goods .head h3{
+    font-size: 0;
+    font-weight: normal;
+}
+
+.goods .head h3 img{
+    height: 24px;
+}
+
+.goods .head h3 span{
+    vertical-align: middle;
+    color: #ccc;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.goods .head h3 i{
+    font-size: 12px;
+    vert-align: middle;
+    color: #999;
+    vertical-align: middle;
+}
+.goods .head .change{
+    color: #999;
+}
+.goods .list{
+    font-size: 0;
+    text-align: center;
+}
+.goods .list li{
+    width: 180px;
+    display: inline-block;
+    margin: 0 2px 35px 2px;
+    text-align: left;
+}
+.goods .list li img{
+    width: 180px;
+    height: 180px;
+}
+.goods .list li h4{
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.goods .list li h4 a:hover{
+    color:#f40;
+}
+.goods .list li .text{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.goods .list li .text a{
+    color:#999;
+}
+.goods .list li .comment{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color:#35b1ff;
+    margin-top: 12px;
+}
+.goods .list li .comment span{
+    font-size: 14px;
+    margin-top: 4px;
+}
+.shopping .list li .text{
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 11px;
+}
+.shopping .list li .text span{
+    font-size: 14px;
+    color: #ebebeb;
+    position: relative;
+    top: -15px;
+}
+.shopping .list li .text a:hover{
+    color: #f40;
+}
+.shopping .list li .comment{
+    color: #999;
+}
+.shopping .list li .comment img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+#tool {
+    width: 50px;
+    height: 350px;
+    position: fixed;
+    top: 100px;
+    right: 13%;
+}
+#tool span{
+    font-size: 32px;
+    color: #ff7f13;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top:-28px;
+}
+#tool div{
+    height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#tool a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #fff;
+
+    word-break: keep-all;
+    box-sizing: border-box;
+    padding-top: 6px;
+    position: relative;
+}
+#tool a:after{
+    content: '';
+    border-bottom: 1px solid #efefef;
+    width: 34px;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+}
+#tool a.item6{
+    line-height: 40px;
+}
+#tool a:hover, #tool a.active{
+    background-image: linear-gradient(135deg, #ff9000, #ff5000);
+    color: #fff;
+    font-weight: bold;
+}
+#tool a:hover:after, #tool a.active:after{
+    border: none;
 }
